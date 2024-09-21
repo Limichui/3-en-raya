@@ -1,0 +1,43 @@
+body {
+    background-color: #393838;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    margin: 5px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+    border: 1px solid #F90;
+    border-radius: 8px;
+    color: #F90;
+}
+
+#reiniciar {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 20px;
+}
